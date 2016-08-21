@@ -46,7 +46,6 @@ export default class ActionButtonItem extends Component {
       >
         <TouchableOpacity style={{flex:1}} activeOpacity={this.props.activeOpacity || 0.85} onPress={this.props.onPress}>
           {this.props.children}
-          </View>
         </TouchableOpacity>
         {
           !!this.props.title && (
