@@ -108,27 +108,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     paddingTop: 2,
-    shadowOpacity: 0.3,
-    shadowOffset: {
-      width: 0, height: 1,
-    },
-    shadowColor: '#444',
-    shadowRadius: 1,
   },
   actionTextView: {
     position: 'absolute',
     paddingVertical: 4,
     paddingHorizontal: 10,
     borderRadius: 3,
-    shadowOpacity: 0.3,
-    shadowOffset: {
-      width: 0, height: 1,
-    },
-    shadowColor: '#444',
-    shadowRadius: 1,
   },
   actionText: {
     flex: 1,
-    fontSize: 14,
   }
 });
