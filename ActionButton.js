@@ -310,12 +310,7 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   btnShadow: {
-    shadowOpacity: 0.3,
-    shadowOffset: {
-      width: 0, height: 1,
-    },
-    shadowColor: '#444',
-    shadowRadius: 1,
+    
   },
   actionsVertical: {
     flex: 1,
