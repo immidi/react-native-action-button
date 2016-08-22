@@ -100,7 +100,9 @@ export default class ActionButton extends Component {
       <View pointerEvents="box-none" style={styles.overlay}>
         <Animated.View pointerEvents="none" style={[styles.overlay, {
           backgroundColor: this.props.bgColor,
-          opacity: this.state.anim
+          opacity: this.state.anim.interpolate({
+            inputRange: [0, 1],
+            outputRange: [0, 0.9]
         }]}>
           {this.props.backdrop}
         </Animated.View>
