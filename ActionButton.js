@@ -103,6 +103,7 @@ export default class ActionButton extends Component {
           opacity: this.state.anim.interpolate({
             inputRange: [0, 1],
             outputRange: [0, 0.9]
+        })
         }]}>
           {this.props.backdrop}
         </Animated.View>
